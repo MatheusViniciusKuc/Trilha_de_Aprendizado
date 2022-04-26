@@ -1,0 +1,73 @@
+div{
+    background-color: green;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+h1#principal{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgreen;
+    text-align: center;
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
+
+div.agrupamento{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 253, 253);
+    border: 2px solid purple;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bloco1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+    color: blue;
+    border: 1px solid orange;
+    margin: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+}
+
+.bloco2{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: chocolate;
+    color: aquamarine;
+    border: 1px solid darkred;
+    margin: 15px;
+    padding: 20px;
+    width: 60px;
+    height: 20px;
+}
+
+.personalido{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216, 197, 233, 0.616);
+    border: 2px solid gray;
+    margin: 10px;
+    padding: 20px;
+}
+
+.personalido:hover{
+    color: red;
+    background-color: black;
+}
+
+.pseudo > span{
+    display: none;
+}
+
+.pseudo:hover > span{
+    display: block;
+}
+
+h3::selection{
+    color: blue;
+    background-color: yellow;
+}
