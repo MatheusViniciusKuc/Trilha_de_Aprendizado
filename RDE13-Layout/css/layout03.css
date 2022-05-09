@@ -35,23 +35,14 @@ header{
     background-color: black;
 }
 
-
-.principal{
-    background-color: gainsboro;
-    float: left;
-    margin: 15px 2px 25px 2px;
-    text-align: justify;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px #08101a98;
-}
-
 /*.principal{
     display: flex;
 }*/
 
-/*.conteudo lateral{
+.conteudo-lateral{
     float: left;
+    width: 23.3%;
+    height: 250px;
     margin: 15px 2px 25px 2px;
     background-color: gainsboro;
     text-align: justify;
@@ -60,16 +51,29 @@ header{
     box-shadow: 10px 10px 10px #08101a98;
 }
 
-.conteudo central{
-    width: 40%;
+.conteudo-central{
     float: left;
+    width: 45%;
+    height: 250px;
     margin: 15px 2px 25px 2px;
     background-color: gainsboro;
     text-align: justify;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #08101a98;
-}*/
+}
+
+
+.conteudo{
+    float: left;
+    width: 30.5%;
+    margin: 15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;
+}
 
 .rodape{
     color: darkgray;
