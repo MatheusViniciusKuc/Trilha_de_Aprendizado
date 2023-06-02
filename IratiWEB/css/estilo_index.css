@@ -1,0 +1,71 @@
+#principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 84, 84);
+    color: gold;
+    margin: 20px;
+    border: 1px solid darkcyan;
+    padding: 20px;
+}
+
+.hino > span{
+    display: none;
+}
+
+.hino:hover > span{
+    display: block;
+}
+
+.hino{
+    text-align: center;
+    border: 2px solid darkcyan;
+    background-color: firebrick;
+    color: gold;
+    padding: 10px;
+    margin: 20px;
+}
+
+.site_irati{
+    text-align: center;
+    border: 2px solid darkcyan;
+    background-color: firebrick;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    color: gold;
+}
+
+.imagem > span{
+    display: none;
+}
+
+.imagem:hover > span{
+    display: block;
+}
+
+.imagem{
+    text-align: center;
+    border: 2px solid darkcyan;
+    background-color: firebrick;
+    margin: 20px;
+    padding: 20px;
+    color: gold;
+}
+
+.paginasnovas{
+    text-align: center;
+    border: 2px solid darkcyan;
+    background-color: firebrick;
+    color: gold;
+    margin: 20px;
+    padding: 10px;
+}
+
+.cursor_pagina_nova{
+    border: 2px solid darkblue;
+    font-size: 40px;
+    background-color: lawngreen;
+    margin: 10px;
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
