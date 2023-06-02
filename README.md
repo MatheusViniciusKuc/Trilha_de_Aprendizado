@@ -1,2 +1,1 @@
-# Trilha_de_Aprendizado
- 
+# Trilha de Aprendizado realizado durante a disciplina de Desenvolvimento WEB I.
